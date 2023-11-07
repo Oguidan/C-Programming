@@ -36,4 +36,45 @@ int main() {
    isTall = 1;
 
    testGrade = 'F';
+
+   printf("%s, your grade is %c \n", name, testGrade);
+   /*
+   %c character
+   %d integer number (base 10)
+   %e exponential floating-point number
+   %f floating-point number
+   %i integer (base 10)
+   %o octal number (base 8)
+   %s a string of characters
+   %u unsigned decimal (integer) number
+   %x number in hexadecimal (base 16)
+   %% print a percent sign
+   \% print a percent sign
+   */
+
+  // CASTING
+  printf("%d \n", (int)3.14);
+  printf("%f \n", (double)3 / 2);
+
+  // POINTERS
+  int num = 10;
+  printf("%p \n", &num);
+
+  int *pNum = &num;
+  printf("%p \n", pNum);
+  printf("%d \n", *pNum);
+
+  // NUMBERS
+
+  printf("%d \n", 2 * 3); // Basic Arithmetic: +, -, /, *
+  printf("%d \n", 10 % 3); // Modulus Op. : return the remainder of 10/3
+  printf("%d \n", 1 + 2 * 3); // order of operationss
+  printf("%f \n", 10 / 3.0); //int's and double
+
+  int num1 = 10;
+  num += 100; // +=, -=, /=, *=
+  printf("%d \n", num1);
+
+  num++;
+  printf("%d \n", num1);
 }
