@@ -68,13 +68,15 @@ int main() {
 
   printf("%d \n", 2 * 3); // Basic Arithmetic: +, -, /, *
   printf("%d \n", 10 % 3); // Modulus Op. : return the remainder of 10/3
-  printf("%d \n", 1 + 2 * 3); // order of operationss
-  printf("%f \n", 10 / 3.0); //int's and double
+  printf("%d \n", (1 + 2) * 3); // order of operationss
+  printf("%d \n", 10 / 3); //int's and double
 
   int num1 = 10;
-  num += 100; // +=, -=, /=, *=
+  num1 += 100; // +=, -=, /=, *=
   printf("%d \n", num1);
 
-  num++;
+  num1++;
   printf("%d \n", num1);
+
+  return 0;
 }
