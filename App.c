@@ -78,5 +78,26 @@ int main() {
   num1++;
   printf("%d \n", num1);
 
+  // USER INPUT
+  // char name1[10];
+  // printf("Enter your name: ");
+  // fgets(name1, 10, stdin);
+  // printf("Hello %s! \n", name1);
+  //
+  // int age;
+  // printf("Enter your age: ");
+  // scanf("%d", &age);
+  // printf("You are %d \n", age);
+
+  // char grade;
+  // printf("Enter your grade: ");
+  // scanf("%c", &grade);
+  // 3printf("You got an %c on the test \n", grade);
+
+  // double gpa;
+  // printf("Enter your gpa: ");
+  // scanf("%lf", &gpa);
+  // printf("Your gpa is %f- \n", gpa);
+
   return 0;
 }
