@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int addNumbers(int num1, int num2);
+
 int main() {
     // PRINTING
     printf("Hello\n");
@@ -117,5 +119,14 @@ numberGrid[0][1] = 99;
 printf("%d \n",numberGrid[0][0]);
 printf("%d \n",numberGrid[0][1]);
 
+// FUNCTIONS
+
+int sum = addNumbers(4, 60);
+printf("%d \n", sum);
+
   return 0;
+}
+
+int addNumbers(int num1, int num2) {
+    return num1 + num2;
 }
