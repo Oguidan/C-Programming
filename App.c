@@ -107,5 +107,15 @@ luckyNumbers[0] = 90;
 printf("%d \n", luckyNumbers[0]);
 printf("%d \n", luckyNumbers[1]);
 
+// N Dimensional Arrays
+
+ int numberGrid[2][3];
+// int numberGrid[2][3] = {{1, 2, 3}, {4, 5, 6}};
+printf("%d \n",numberGrid[0][1]);
+numberGrid[0][1] = 99;
+
+printf("%d \n",numberGrid[0][0]);
+printf("%d \n",numberGrid[0][1]);
+
   return 0;
 }
