@@ -175,6 +175,12 @@ int index = 6;
   index++;
  } while (index <= 5);
 
+// FOR LOOPS
+for (int i = 0; i < 5; i++)
+{
+    printf("%d\n", i);
+}
+
 
 
   return 0;
