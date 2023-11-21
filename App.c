@@ -146,6 +146,21 @@ if ('a' == 'b'){
     printf("character comparison was true\n");
 }
 
+// SWITCH STATEMENTS
+
+char myGrade = 'Z';
+switch (myGrade)
+{
+case 'A':
+    printf("You pass\n");
+    break;
+case 'F':
+    printf("You fail\n");
+    break;
+default:
+    printf("Invalid grade\n");
+}
+
   return 0;
 }
 
