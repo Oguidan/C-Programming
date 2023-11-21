@@ -3,6 +3,14 @@
 
 int addNumbers(int num1, int num2);
 
+struct Student
+{
+    int age;
+    double gpa;
+    char grade;
+};
+
+
 int main() {
     // PRINTING
     printf("Hello\n");
@@ -181,7 +189,13 @@ for (int i = 0; i < 5; i++)
     printf("%d\n", i);
 }
 
+// STRUCTS
+struct Student student1;
+student1.age = 19;
+student1.gpa = 3.4;
+student1.grade = 'B';
 
+printf("%d\n", student1.age);
 
   return 0;
 }
